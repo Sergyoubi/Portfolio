@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   },
   description:
     "Ethan Sergy's Portfolio | Experienced Software developer (React, NextJs, NodeJS)",
+  icons: {
+    icon: "/assets/icon.png",
+  },
 };
 
 export default function RootLayout({
