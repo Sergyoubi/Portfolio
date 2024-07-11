@@ -5,3 +5,10 @@ declare type ExperienceProps = {
   jobDescription: string;
   tech: string[];
 };
+
+declare type ProjectProps = {
+  imageLink: string;
+  title: string;
+  description: string;
+  tech: string[];
+};

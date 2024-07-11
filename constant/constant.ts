@@ -22,12 +22,12 @@ export const projects = [
     imageLink: "link",
     title: "Bank app",
     description:
-      "Allows users to transfer/receive money, see their spending, add real Bank account,..",
+      "Allows users to transfer/receive money, see their spending and add real Bank account.",
     tech: [
       "NextJS",
       "TypeScript",
       "ShadCN",
-      "Plaid",
+      "Plaid API",
       "Dwolla",
       "Appwrite",
       "TailwindCSS",
@@ -37,7 +37,7 @@ export const projects = [
     imageLink: "link",
     title: "Social Media App",
     description:
-      "Allows users to create post, like post, delete post, share post, dark/light mode, Sign In, Sign Up",
+      "Allows users to create post, like post, delete post, dark/light mode, Sign In, Sign Up",
     tech: [
       "ReactJS",
       "JavaScript",

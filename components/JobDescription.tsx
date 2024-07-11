@@ -18,11 +18,11 @@ const JobDescription = ({
         <article className="w-[90%] text-slate-400 text-sm font-thin">
           {jobDescription}
         </article>
-        <div className="w-full h-[10%] flex justify-start items-center mb-3 gap-3">
+        <div className="w-full flex justify-start items-center mb-3 gap-3 flex-wrap">
           {tech.map((item, index) => (
             <p
               key={index}
-              className="px-3 py-2 text-[10px] bg-teal-50 bg-opacity-10 text-teal-300 rounded-full"
+              className="px-3 py-2 text-xs bg-teal-50 bg-opacity-10 text-teal-300 rounded-full"
             >
               {item}
             </p>

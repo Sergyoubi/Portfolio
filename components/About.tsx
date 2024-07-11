@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="w-[50%] h-full fixed bg-slate-900 flex-center">
+    <div className="w-[50%] h-full fixed black-gradient flex-center">
       <div className="w-[60%] h-[70%] flex flex-col justify-start items-start gap-6">
         <p className="text-[#DFF6FF] font-bold text-6xl">Ethan Sergy</p>
         <p className="text-slate-300 font-thin text-2xl">
@@ -27,3 +27,4 @@ const About = () => {
 };
 
 export default About;
+// #0f172a
