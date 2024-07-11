@@ -1,6 +1,6 @@
 import { AiOutlineFolderOpen } from "react-icons/ai";
 
-const ProjectList = ({ imageLink, title, description, tech }: ProjectProps) => {
+const ProjectList = ({ title, description, tech }: ProjectProps) => {
   return (
     <>
       <section className="w-[80%] flex-center project group">

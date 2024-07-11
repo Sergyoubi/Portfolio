@@ -5,9 +5,13 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ethan Sergy",
+  title: {
+    default: "Ethan Sergy",
+    template: "Ethan Sergy | %s",
+    absolute: "",
+  },
   description:
-    "Ethan Sergy's Portfolio | Experienced Front-End developer (React, NextJs, NodeJS)",
+    "Ethan Sergy's Portfolio | Experienced Software developer (React, NextJs, NodeJS)",
 };
 
 export default function RootLayout({

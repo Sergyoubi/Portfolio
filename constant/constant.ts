@@ -40,13 +40,13 @@ export const projects = [
       "Allows users to create post, like post, delete post, dark/light mode, Sign In, Sign Up",
     tech: [
       "ReactJS",
-      "JavaScript",
-      "MUI",
       "NodeJS",
+      "JavaScript",
+      "MongoDB",
+      "MUI",
       "JWT",
       "TailwindCSS",
       "Redux Toolkit",
-      "MongoDB",
     ],
   },
 ];

@@ -18,8 +18,10 @@ const Intro = () => {
         </div>
         <div className="w-[80%] h-[20%] flex justify-start items-center">
           <Link
+            target="_blank"
+            rel="noreferrer"
             href="/my-resume"
-            className="text-cyan-300 text-sm py-2 px-4 border rounded-full border-cyan-100"
+            className="text-cyan-300 text-sm py-2 px-4 border rounded-full border-cyan-100 hover:border-cyan-300 hover:text-teal-300"
           >
             View full Résumé
           </Link>
