@@ -11,7 +11,7 @@ const About = () => {
         <p className="text-slate-300 font-thin text-2xl tracking-wide">
           Experienced Software Engineer
         </p>
-        <p className="text-slate-400 font-thin text-sm tracking-wide">
+        <p className="text-slate-400 font-normal text-sm tracking-wide">
           I thrive at the intersection of design and engineering
         </p>
         <div className="w-full h-[20%] my-12 flex justify-start items-center gap-5">
