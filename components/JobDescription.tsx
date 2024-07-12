@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const JobDescription = ({
   date,
   title,
@@ -6,7 +8,12 @@ const JobDescription = ({
   tech,
 }: ExperienceProps) => {
   return (
-    <section className="w-[80%] flex-center glassmorphisme">
+    <Link
+      target="_blank"
+      rel="noreferrer"
+      href={`https://${company}`}
+      className="w-[80%] flex-center glassmorphisme"
+    >
       <div className="w-[25%] h-full">
         <p className="text-[10px] text-slate-400 mt-5 mx-2">{date}</p>
       </div>
@@ -29,7 +36,7 @@ const JobDescription = ({
           ))}
         </div>
       </div>
-    </section>
+    </Link>
   );
 };
 

@@ -7,7 +7,7 @@ declare type ExperienceProps = {
 };
 
 declare type ProjectProps = {
-  imageLink: string;
+  url: string;
   title: string;
   description: string;
   tech: string[];

@@ -19,7 +19,7 @@ export const experiences = [
 
 export const projects = [
   {
-    imageLink: "link",
+    url: "https://github.com/Sergyoubi/Bank-App",
     title: "Bank app",
     description:
       "Allows users to transfer/receive money, see their spending and add real Bank account.",
@@ -34,7 +34,7 @@ export const projects = [
     ],
   },
   {
-    imageLink: "link",
+    url: "https://github.com/Sergyoubi/friend_Link_Client",
     title: "Social Media App",
     description:
       "Allows users to create post, like post, delete post, dark/light mode, Sign In, Sign Up",

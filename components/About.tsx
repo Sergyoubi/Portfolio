@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
@@ -14,14 +15,26 @@ const About = () => {
           I thrive at the intersection of design and engineering
         </p>
         <div className="w-full h-[20%] my-12 flex justify-start items-center gap-5">
-          <AiFillGithub
-            size={32}
-            className="text-slate-200 hover:text-cyan-300"
-          />
-          <AiFillLinkedin
-            size={32}
-            className="text-slate-200 hover:text-cyan-300"
-          />
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Sergyoubi"
+          >
+            <AiFillGithub
+              size={32}
+              className="text-slate-200 hover:text-cyan-300"
+            />
+          </Link>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/ethan-sergy-396144203/"
+          >
+            <AiFillLinkedin
+              size={32}
+              className="text-slate-200 hover:text-cyan-300"
+            />
+          </Link>
         </div>
       </div>
     </div>

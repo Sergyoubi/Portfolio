@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   title: {
     default: "Ethan Sergy",
     template: "Ethan Sergy | %s",
-    absolute: "",
   },
   description:
     "Ethan Sergy's Portfolio | Experienced Software developer (React, NextJs, NodeJS)",

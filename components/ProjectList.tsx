@@ -1,9 +1,15 @@
+import Link from "next/link";
 import { AiOutlineFolderOpen } from "react-icons/ai";
 
-const ProjectList = ({ title, description, tech }: ProjectProps) => {
+const ProjectList = ({ url, title, description, tech }: ProjectProps) => {
   return (
     <>
-      <section className="w-[80%] flex-center project group">
+      <Link
+        target="_blank"
+        rel="noreferrer"
+        href={url}
+        className="w-[80%] flex-center project group"
+      >
         <div className="w-[25%] h-full flex justify-center items-start">
           <AiOutlineFolderOpen
             size={40}
@@ -28,7 +34,7 @@ const ProjectList = ({ title, description, tech }: ProjectProps) => {
             ))}
           </div>
         </div>
-      </section>
+      </Link>
     </>
   );
 };
