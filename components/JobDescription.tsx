@@ -8,19 +8,26 @@ const JobDescription = ({
   tech,
 }: ExperienceProps) => {
   return (
-    <Link
-      target="_blank"
-      rel="noreferrer"
-      href={`https://${company}`}
-      className="w-[80%] flex-center glassmorphisme"
-    >
-      <div className="w-[25%] h-full">
-        <p className="text-[10px] text-slate-400 mt-5 mx-2">{date}</p>
+    <section className="w-[95%] lg:w-[90%] flex-center glassmorphisme my-3">
+      <div className="w-[25%] h-full hidden lg:flex justify-center items-start">
+        <div className="w-full h-[20%]flex-center">
+          <p className="text-[10px] text-slate-400 mx-2 mb-[142%]">{date}</p>
+        </div>
       </div>
-      <div className="w-[75%] h-full flex flex-col justify-center items-start gap-4">
-        <div className="w-full h-[10%] flex justify-start items-center gap-3 mt-3">
-          <p className="text-[#DFF6FF] text-base font-semibold">{title}</p>
-          <p className="text-slate-300 text-sm font-normal">{company}</p>
+      <div className="w-[75%] h-[80%] flex flex-col justify-center items-start gap-7">
+        <div className="w-full flex justify-start items-center flex-wrap gap-3 mt-3">
+          <p className="text-[#DFF6FF] text-sm lg:text-base font-semibold">
+            {title}
+          </p>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            href={`https://${company}`}
+            className="text-slate-300 text-xs lg:text-sm font-normal hover:text-cyan-300"
+          >
+            {company}
+          </Link>
+          <p className="text-[10px] text-slate-400 lg:hidden">({date})</p>
         </div>
         <article className="w-[90%] text-slate-400 text-sm font-thin">
           {jobDescription}
@@ -36,7 +43,7 @@ const JobDescription = ({
           ))}
         </div>
       </div>
-    </Link>
+    </section>
   );
 };
 

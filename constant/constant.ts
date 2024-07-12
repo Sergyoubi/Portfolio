@@ -5,7 +5,7 @@ export const experiences = [
     company: "www.nellium-ai.com",
     jobDescription:
       "Built and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
-    tech: ["React", "NodeJS", "TailwindCSS", "Redux", "MongoDB"],
+    tech: ["React", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     date: "March 2019 - April 2022",
@@ -26,9 +26,9 @@ export const projects = [
     tech: [
       "NextJS",
       "TypeScript",
-      "ShadCN",
       "Plaid API",
       "Dwolla",
+      "ShadCN",
       "Appwrite",
       "TailwindCSS",
     ],

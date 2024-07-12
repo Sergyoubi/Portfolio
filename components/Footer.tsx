@@ -24,10 +24,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full h-[100%] bg-slate-900 flex justify-end items-center">
-      <section className="w-[50%] h-full flex flex-col justify-around items-center">
-        <div className="w-[80%] h-[30%] purple-gradient rounded-2xl flex-center flex-col gap-6">
-          <p className="w-[80%] text-center text-white text-3xl font-bold">
+    <footer className="w-full h-[100%] bg-slate-900 flex justify-center lg:justify-end items-center">
+      <section className="w-full lg:w-[50%] h-full flex flex-col justify-around items-center">
+        <div className="w-[80%] h-[40%] lg:h-[30%] purple-gradient rounded-2xl flex-center flex-col gap-6 relative lg:top-[15%]">
+          <p className="w-[95%] lg:w-[80%] text-center text-white text-2xl lg:text-3xl font-bold">
             Do you have a project? <br /> Let's build it.
           </p>
           <button

@@ -3,8 +3,8 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="w-[50%] h-full fixed black-gradient flex-center">
-      <div className="w-[60%] h-[70%] flex flex-col justify-start items-start gap-6">
+    <div className="w-full h-[80%] lg:w-[50%] lg:h-full relative lg:fixed bg-slate-900 lg:black-gradient flex-center">
+      <div className="w-[80%] lg:w-[60%] h-[70%] flex flex-col justify-start items-start gap-6">
         <p className="text-[#DFF6FF] font-bold text-6xl tracking-wide">
           Ethan Sergy
         </p>
