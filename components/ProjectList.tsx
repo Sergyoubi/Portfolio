@@ -17,7 +17,9 @@ const ProjectList = ({ url, title, description, tech }: ProjectProps) => {
       </div>
       <div className="w-[75%] flex flex-col justify-center items-start gap-4 my-2">
         <div className="w-full h-[10%] flex justify-start items-center gap-3">
-          <p className="text-[#DFF6FF] text-base font-semibold">{title}</p>
+          <p className="text-[#DFF6FF] text-base font-semibold group-hover:text-cyan-200">
+            {title}
+          </p>
         </div>
         <article className="w-[90%] text-slate-400 text-sm font-thin">
           {description}

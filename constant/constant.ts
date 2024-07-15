@@ -39,7 +39,7 @@ export const projects = [
     description:
       "Allows users to create post, like post, delete post, dark/light mode, Sign In, Sign Up",
     tech: [
-      "ReactJS",
+      "React",
       "NodeJS",
       "JavaScript",
       "MongoDB",
@@ -48,5 +48,12 @@ export const projects = [
       "TailwindCSS",
       "Redux Toolkit",
     ],
+  },
+  {
+    url: "https://github.com/Sergyoubi/Portfolio",
+    title: "Portfolio",
+    description:
+      "Personal portfolio that highlights my skills in web development",
+    tech: ["React", "NextJS", "TypeScript", "TailwindCSS", "VScode"],
   },
 ];
