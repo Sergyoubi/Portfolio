@@ -51,7 +51,7 @@ export const projects = [
   },
   {
     url: "https://github.com/Sergyoubi/Portfolio",
-    title: "Portfolio",
+    title: "This Portfolio",
     description:
       "Personal portfolio that highlights my skills in web development",
     tech: ["React", "NextJS", "TypeScript", "TailwindCSS", "VScode"],
