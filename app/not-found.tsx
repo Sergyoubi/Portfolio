@@ -8,10 +8,7 @@ const NotFoundPage = () => {
         <p className="font-bold text-3xl text-teal-300 text-center tracking-wide">
           The page you are trying to access does not exist
         </p>
-        <Link
-          href="/"
-          className="py-2 px-4 border border-teal-300 text-teal-300 font-normal text-xl rounded-3xl hover:border-teal-400 hover:text-teal-400"
-        >
+        <Link href="/" className="primary-btn">
           Back home
         </Link>
       </div>

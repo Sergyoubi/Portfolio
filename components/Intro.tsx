@@ -21,7 +21,7 @@ const Intro = () => {
             target="_blank"
             rel="noreferrer"
             href="/my-resume"
-            className="text-slate-800 text-sm font-medium py-2 px-4 border rounded-full border-transparent hover:border-cyan-400 bg-gradient-to-r from-teal-200 to-[#09fb91]"
+            className="primary-btn"
           >
             View full Résumé
           </Link>
