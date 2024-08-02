@@ -19,6 +19,19 @@ export const experiences = [
 
 export const projects = [
   {
+    url: "https://github.com/Sergyoubi/Assist_AI",
+    title: "Assist_Ai",
+    description:
+      "Conversational AI app that enables users to have natural language conversations with a computer. We use Llama3 model to  provide a personalized and engaging experience.",
+    tech: [
+      "NextJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Vercel AI sdk",
+      "GrocCloud API",
+    ],
+  },
+  {
     url: "https://github.com/Sergyoubi/Bank-App",
     title: "Bank app",
     description:
@@ -48,12 +61,5 @@ export const projects = [
       "TailwindCSS",
       "Redux Toolkit",
     ],
-  },
-  {
-    url: "https://github.com/Sergyoubi/Portfolio",
-    title: "This Portfolio",
-    description:
-      "Personal portfolio that highlights my skills in web development",
-    tech: ["React", "NextJS", "TypeScript", "TailwindCSS", "VScode"],
   },
 ];
