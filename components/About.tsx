@@ -6,7 +6,10 @@ const About = () => {
     <div className="w-full h-[80%] lg:w-[50%] lg:h-full relative lg:fixed bg-slate-900 lg:black-gradient flex-center">
       <div className="w-[80%] lg:w-[60%] h-[70%] flex flex-col justify-start items-start gap-6">
         <p className="text-[#DFF6FF] font-bold text-6xl tracking-wide">
-          Ethan Sergy
+          Ethan Sergy,
+        </p>
+        <p className="text-slate-200 font-bold text-5xl tracking-wide">
+          I am into building SaaS
         </p>
         <p className="text-slate-300 font-thin text-2xl tracking-wide">
           Experienced Software Engineer
