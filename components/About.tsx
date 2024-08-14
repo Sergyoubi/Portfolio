@@ -9,10 +9,10 @@ const About = () => {
           Ethan Sergy,
         </p>
         <p className="text-slate-200 font-bold text-6xl tracking-wide">
-          I am into building SaaS
+          I am into building SaaS.
         </p>
         <p className="text-slate-400 font-normal text-sm tracking-wide">
-          I thrive at the intersection of design and engineering
+          I thrive at the intersection of design and engineering.
         </p>
         <div className="w-full h-[20%] my-12 flex justify-start items-center gap-5">
           <Link
