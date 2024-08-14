@@ -8,10 +8,10 @@ const About = () => {
         <p className="text-[#DFF6FF] font-bold text-4xl tracking-wide">
           Ethan Sergy,
         </p>
-        <p className="text-slate-200 font-bold text-6xl tracking-wide">
+        <p className="text-slate-200 font-bold text-6xl tracking-wide select-none">
           I am into building SaaS.
         </p>
-        <p className="text-slate-400 font-normal text-sm tracking-wide">
+        <p className="text-slate-400 font-normal text-sm tracking-wide select-none">
           I thrive at the intersection of design and engineering.
         </p>
         <div className="w-full h-[20%] my-12 flex justify-start items-center gap-5">

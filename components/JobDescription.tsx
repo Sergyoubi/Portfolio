@@ -29,7 +29,7 @@ const JobDescription = ({
           </Link>
           <p className="text-[10px] text-slate-400 lg:hidden">({date})</p>
         </div>
-        <article className="w-[90%] text-slate-400 text-sm font-normal">
+        <article className="w-[90%] text-slate-400 text-sm font-normal select-none">
           {jobDescription}
         </article>
         <div className="w-full flex justify-start items-center mb-3 gap-3 flex-wrap">
