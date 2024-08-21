@@ -28,7 +28,7 @@ const Footer = () => {
       <section className="w-full lg:w-[50%] h-full flex flex-col justify-around items-center">
         <div className="w-[80%] h-[40%] lg:h-[30%] purple-gradient rounded-2xl flex-center flex-col gap-6 relative lg:top-[15%]">
           <p className="w-[95%] lg:w-[80%] text-center text-white text-2xl lg:text-3xl font-bold">
-            Do you have a project? <br /> Let's build it.
+            Let's collaborate
           </p>
           <button
             onClick={handleCopyEmail}
