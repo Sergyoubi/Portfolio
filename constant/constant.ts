@@ -1,5 +1,13 @@
 export const experiences = [
   {
+    date: " August 2024 - Now",
+    title: "Fullstack software engineer.",
+    company: "RMT IT Solutions",
+    jobDescription:
+      "Develop and collaborate with other developers to maintain code for client websites primarily using NextJS, JavaScript, TailwindCSS, PHP, VueJS,...",
+    tech: ["NextJS", "JavaScript", "TailwindCSS", "VueJS"],
+  },
+  {
     date: "June 2022 - June 2024",
     title: "Fullstack software engineer.",
     company: "www.nellium-ai.com",

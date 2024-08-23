@@ -24,7 +24,7 @@
 }
 
 .glassmorphisme {
-  @apply bg-white bg-opacity-[0.04] lg:bg-opacity-[0] hover:bg-opacity-5 backdrop-filter backdrop-blur-lg border border-transparent hover:border-gray-800 rounded-xl gap-5 transition ease-in-out duration-500;
+  @apply bg-opacity-[0.04] lg:bg-opacity-[0] hover:bg-opacity-5 backdrop-filter backdrop-blur-lg border border-transparent hover:border-gray-800 rounded-xl gap-5 transition ease-in-out duration-500;
 }
 
 .project {
