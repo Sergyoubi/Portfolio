@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const TitleItem = ({ title, company, date }: TitleItemProps) => {
+const TitleItem = ({ title, company }: TitleItemProps) => {
   return (
     <div className="w-full h-[20%] flex justify-start items-center flex-wrap gap-x-4 gap-y-1">
       <p className="text-[#DFF6FF] text-sm lg:text-base font-normal">{title}</p>
@@ -12,7 +12,6 @@ const TitleItem = ({ title, company, date }: TitleItemProps) => {
       >
         {company.name}
       </Link>
-      <p className="text-[10px] text-slate-400 lg:hidden">({date})</p>
     </div>
   );
 };
