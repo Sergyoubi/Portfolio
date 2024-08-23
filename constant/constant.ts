@@ -2,7 +2,10 @@ export const experiences = [
   {
     date: " August 2024 - Now",
     title: "Fullstack software engineer.",
-    company: "RMT IT Solutions",
+    company: {
+      name: "RMT IT Solutions",
+      link: "https://www.linkedin.com/company/rmt-it-solutions",
+    },
     jobDescription:
       "Develop and collaborate with other developers to maintain code for client websites primarily using NextJS, JavaScript, TailwindCSS, PHP, VueJS,...",
     tech: ["NextJS", "JavaScript", "TailwindCSS", "VueJS"],
@@ -10,7 +13,11 @@ export const experiences = [
   {
     date: "June 2022 - June 2024",
     title: "Fullstack software engineer.",
-    company: "www.nellium-ai.com",
+    company: {
+      name: "Nellium-AI",
+      link: "www.nellium-ai.com",
+    },
+
     jobDescription:
       "Built and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
     tech: ["React", "NodeJS", "TailwindCSS", "MongoDB"],
@@ -18,7 +25,10 @@ export const experiences = [
   {
     date: "March 2019 - April 2022",
     title: "Frontend software engineer.",
-    company: "www.misterharper.com",
+    company: {
+      name: "Misterharper.com",
+      link: "www.misterharper.com",
+    },
     jobDescription:
       "Architected and implemented the user interface using technologies such as React, JavaScript, TailwindCSS and Material UI. Worked alongside project managers, designers, and Backend engineers to transform creative concepts into refined digital experiences.",
     tech: ["React", "JavaScript", "TailwindCSS", "MaterialUI."],
