@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    date: " August 2024 - Now",
+    date: " August 2024 - Present",
     title: "Fullstack software engineer.",
     company: {
       name: "RMT IT Solutions",
