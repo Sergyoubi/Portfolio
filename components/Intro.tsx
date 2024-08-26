@@ -10,13 +10,22 @@ const Intro = () => {
             that not only meet functional requirements but also delight users
             with their aesthetics and usability.
           </p>
+          {/* 
           <p className="text-lg font-light text-slate-400 tracking-wide leading-relaxed select-none">
             I have a passion for creating seamless, intuitive user experiences
             by merging cutting-edge technology with thoughtful design
             principles.
           </p>
+          */}
+          <p className="text-lg font-light text-slate-400 tracking-wide leading-relaxed select-none">
+            I want to build cool stuff using cool technologies, that's pretty
+            much it!
+            <br />
+            For now that means building websites and apps for different clients,
+            using modern frameworks and libraries - and I'm happy with that.
+          </p>
         </div>
-        <div className="w-full lg:w-[80%] h-[20%] flex justify-start items-center">
+        <div className="w-full lg:w-[80%] h-[50%] flex justify-start items-center">
           <Link
             target="_blank"
             rel="noreferrer"
