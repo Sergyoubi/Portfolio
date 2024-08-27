@@ -42,7 +42,7 @@ const Footer = () => {
             ) : (
               <span className="flex-center gap-3">
                 <FaRegCopy size={15} className="text-white" />
-                Copy my Email address
+                Copy my email address
               </span>
             )}
           </button>
