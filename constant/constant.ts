@@ -7,8 +7,8 @@ export const experiences = [
       link: "https://www.linkedin.com/company/rmt-it-solutions",
     },
     jobDescription:
-      "Develop and collaborate with other developers to maintain code for client websites primarily using NextJS, JavaScript, TailwindCSS, PHP, VueJS,...",
-    tech: ["NextJS", "JavaScript", "TailwindCSS", "VueJS"],
+      "Develop and collaborate with other developers to maintain code for client websites primarily using NextJS, JavaScript, TypeScript, TailwindCSS, ReactJS,...",
+    tech: ["NextJS", "JavaScript", "TypeScript", "TailwindCSS"],
   },
   {
     date: "June 2022 - June 2024",

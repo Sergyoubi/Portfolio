@@ -23,6 +23,3 @@ const Experience = () => {
 };
 
 export default Experience;
-/* 
-    h-[125%] lg:h-full
-    */

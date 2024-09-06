@@ -1,6 +1,6 @@
 const TechListItem = ({ tech }: TechProps) => {
   return (
-    <section className="w-full h-[20%] flex justify-start items-center gap-2">
+    <section className="w-full h-[20%]  flex justify-start items-center flex-wrap gap-2">
       {tech.map((item, index) => (
         <p
           key={index}

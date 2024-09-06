@@ -10,7 +10,7 @@ const JobDescription = ({
   tech,
 }: ExperienceProps) => {
   return (
-    <section className="glassmorphisme w-[95%] lg:w-[90%] h-[40vh] flex-center my-3 hover:cursor-pointer">
+    <section className="glassmorphisme w-[95%] lg:w-[90%] h-[55vh] lg:h-[40vh] flex-center my-3 hover:cursor-pointer">
       <div className="w-[25%] h-full flex justify-start items-start">
         <p className="text-[10px] text-slate-400 mx-2 relative top-[7%]">
           {date}
