@@ -27,7 +27,7 @@ const JobDescription = ({
         scale: scale,
       }}
       transition={{ stiffness: 20 }}
-      className="border border-slate-800 rounded-xl gap-5 w-[95%] lg:w-[90%] h-[55vh] lg:h-[40vh] mid-xl:h-[28vh] 2xl:h-[25vh] flex-center my-3 hover:cursor-pointer"
+      className="border border-slate-800 hover:border-zinc-700 rounded-xl gap-5 w-[95%] lg:w-[90%] h-[55vh] lg:h-[40vh] mid-xl:h-[28vh] 2xl:h-[25vh] flex-center my-3 hover:cursor-pointer"
     >
       <div className="w-[25%] h-full flex justify-start items-start">
         <p className="text-[10px] text-slate-400 mx-2 relative top-[7%] left-[5%] mid-xl:left-[10%]">

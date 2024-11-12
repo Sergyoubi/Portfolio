@@ -7,7 +7,7 @@ const About = () => {
       <div className="w-[85%] lg:w-[75%] 2xl:w-[60%] h-[60%] mid-xl:h-[46%] 2xl:h-[42%] flex flex-col justify-between items-start relative xl:bottom-[6%] mid-xl:bottom-[13%] 2xl:left-[15%] 2xl:bottom-[15%]">
         <p className="text-[#DFF6FF] font-bold text-4xl tracking-wide">
           Sergy {""}
-          <span className="text-3xl font-thin">(Senior Dev)</span>
+          <span className="text-xl font-thin">(Senior Dev)</span>
         </p>
         <p className="text-slate-200 font-bold text-6xl tracking-wide select-none">
           I am into <br /> building SaaS.
