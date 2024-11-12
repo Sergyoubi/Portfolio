@@ -3,12 +3,12 @@ export const experiences = [
     date: " August 2024 - Present",
     title: "Fullstack software engineer.",
     company: {
-      name: "RMT IT Solutions",
+      name: "RMT IT (web agency)",
       link: "https://www.linkedin.com/company/rmt-it-solutions",
     },
     jobDescription:
-      "Develop and collaborate with other developers to maintain code for client websites primarily using NextJS, JavaScript, TypeScript, TailwindCSS, ReactJS,...",
-    tech: ["NextJS", "JavaScript", "TypeScript", "TailwindCSS"],
+      "Build and maintain critical components used to construct client's websites. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    tech: ["TypeScript", "JavaScript", "NextJS", "TailwindCSS"],
   },
   {
     date: "June 2022 - June 2024",
@@ -19,7 +19,7 @@ export const experiences = [
     },
 
     jobDescription:
-      "Built and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
+      "Build and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
     tech: ["React", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {

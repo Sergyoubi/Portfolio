@@ -1,19 +1,30 @@
+"use client";
+
 import Link from "next/link";
-import { AiOutlineFolderOpen } from "react-icons/ai";
+import FolderIcon from "./FolderIcon";
+import { useState } from "react";
 
 const ProjectList = ({ url, title, description, tech }: ProjectProps) => {
+  const [coordinates, setCoordinates] = useState(0);
+
+  const handleMouseEnter = () => {
+    setCoordinates(-40);
+  };
+  const handleMouseLeave = () => {
+    setCoordinates(0);
+  };
+
   return (
     <Link
+      href={url}
       target="_blank"
       rel="noreferrer"
-      href={url}
-      className="w-[95%] lg:w-[90%] flex-center project group my-2"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      className="project-class w-[95%] lg:w-[90%] flex-center group my-2"
     >
       <div className="w-[25%] hidden lg:flex justify-center items-center">
-        <AiOutlineFolderOpen
-          size={40}
-          className="text-slate-200 group-hover:text-cyan-300"
-        />
+        <FolderIcon coordinates={coordinates} />
       </div>
       <div className="w-[75%] flex flex-col justify-center items-start gap-4 my-2">
         <div className="w-full h-[10%] flex justify-start items-center gap-3">

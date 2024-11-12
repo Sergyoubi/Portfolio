@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="w-[80%] h-[10%] relative top-[5%] lg:top-[8%] flex justify-center items-center">
           <p className="text-teal-300 font-medium text-sm tracking-wide">
-            Designed and coded by Ethan
+            Designed and coded by Sergy
           </p>
         </div>
       </section>

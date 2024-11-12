@@ -32,3 +32,7 @@ declare type jobDescriptionProps = {
 declare type TechProps = {
   tech: string[];
 };
+
+declare type CoordinatesProps = {
+  coordinates: number;
+};
