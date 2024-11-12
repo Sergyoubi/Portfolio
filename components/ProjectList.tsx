@@ -21,7 +21,7 @@ const ProjectList = ({ url, title, description, tech }: ProjectProps) => {
       rel="noreferrer"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="project-class w-[95%] lg:w-[90%] flex-center group my-2"
+      className="project-class w-[80%] h-[48vh] md:h-[25vh] xl:w-[90%] xl:h-[40vh] 2xl:h-[30vh] 3xl:h-[20vh] flex-center group my-2"
     >
       <div className="w-[25%] hidden lg:flex justify-center items-center">
         <FolderIcon coordinates={coordinates} />

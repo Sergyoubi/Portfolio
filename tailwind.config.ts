@@ -14,9 +14,7 @@ const config: Config = {
         // 1600 x 900px,
         // 1920x 1080px,
         "3xl": "2560px", // x 1440 (for PC), 1600 (for MCBK Air13)
-        // "4xl": "2880px", // x 1800 MCBK 15
-        // "5xl": "3072px", // x 1920 MCBK Pro 16
-        // "6xl": "3840px", // 2160 , 4K PC
+        "4xl": "2880px", // x 1800 MCBK 15
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -27,10 +27,10 @@ const JobDescription = ({
         scale: scale,
       }}
       transition={{ stiffness: 20 }}
-      className="border border-slate-800 hover:border-zinc-700 rounded-xl gap-5 w-[95%] lg:w-[90%] h-[55vh] lg:h-[40vh] mid-xl:h-[28vh] 2xl:h-[25vh] flex-center my-3 hover:cursor-pointer"
+      className="w-[80%] h-[60vh] md:h-[20vh] xl:w-[90%] xl:h-[40vh] mid-xl:h-[28vh] 2xl:h-[25vh] 3xl:h-[20vh] flex-center my-3 border border-slate-800 hover:border-zinc-700 rounded-xl gap-5 hover:cursor-pointer"
     >
       <div className="w-[25%] h-full flex justify-start items-start">
-        <p className="text-[10px] text-slate-400 mx-2 relative top-[7%] left-[5%] mid-xl:left-[10%]">
+        <p className="text-[0.5rem] md:text-xs xl:text-[0.6rem] text-slate-400 mx-2 relative top-[3.5%] md:top-[7%] xl:top-[8%] left-[5%] mid-xl:left-[10%]">
           {date}
         </p>
       </div>

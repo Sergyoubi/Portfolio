@@ -8,7 +8,7 @@ export const experiences = [
     },
     jobDescription:
       "Build and maintain critical components used to construct client's websites. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    tech: ["TypeScript", "JavaScript", "NextJS", "TailwindCSS"],
+    tech: ["TypeScript", "NextJS", "ShadCN", "TailwindCSS"],
   },
   {
     date: "June 2022 - June 2024",

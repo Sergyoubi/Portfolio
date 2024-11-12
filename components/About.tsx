@@ -3,8 +3,8 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="w-full h-[80%] lg:w-[50%] lg:h-full relative lg:fixed bg-slate-900 lg:black-gradient flex-center">
-      <div className="w-[85%] lg:w-[75%] 2xl:w-[60%] h-[60%] mid-xl:h-[46%] 2xl:h-[42%] flex flex-col justify-between items-start relative xl:bottom-[6%] mid-xl:bottom-[13%] 2xl:left-[15%] 2xl:bottom-[15%]">
+    <div className="w-full h-[80%] md:h-[40%] lg:w-[50%] lg:h-full relative lg:fixed bg-slate-900 lg:black-gradient flex-center">
+      <div className="w-[85%] lg:w-[75%] 2xl:w-[60%] h-[80%] md:h-[75%] xl:h-[60%] mid-xl:h-[46%] 2xl:h-[42%] 3xl:h-[30%] flex flex-col justify-between items-start relative xl:bottom-[6%] mid-xl:bottom-[13%] 2xl:left-[15%] 2xl:bottom-[15%] 3xl:left-[25%]">
         <p className="text-[#DFF6FF] font-bold text-4xl tracking-wide">
           Sergy {""}
           <span className="text-xl font-thin">(Senior Dev)</span>

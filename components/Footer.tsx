@@ -24,9 +24,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full h-[40vh] lg:h-[70vh] bg-slate-900 flex justify-center lg:justify-end items-center">
+    <footer className="w-full h-[40vh] lg:h-[70vh] 3xl:h-[40vh] bg-slate-900 flex justify-center lg:justify-end items-center">
       <section className="w-full lg:w-[50%] h-full flex flex-col justify-around items-center">
-        <div className="w-[95%] lg:w-[80%] h-[65%] lg:h-[50%] purple-gradient rounded-2xl flex-center flex-col gap-6 relative lg:top-[15%]">
+        <div className="w-[80%] h-[65%] md:w-[80%] md:h-[50%] purple-gradient rounded-2xl flex-center flex-col gap-6 relative lg:top-[15%]">
           <p className="w-[95%] lg:w-[80%] text-center text-white text-2xl lg:text-3xl font-bold">
             Let's collaborate
           </p>
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         <div className="w-[80%] h-[10%] relative top-[5%] lg:top-[8%] flex justify-center items-center">
           <p className="text-teal-300 font-medium text-sm tracking-wide">
-            Designed and coded by Sergy
+            &copy; Designed and coded by Sergy
           </p>
         </div>
       </section>
