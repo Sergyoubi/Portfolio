@@ -1,15 +1,15 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Résumé",
+  title: "My resume",
 };
 
 const Résumé = () => {
   return (
     <div className="w-screen h-screen flex-center bg-slate-900">
       <iframe
-        title="Ethan's résumé"
-        src={"/assets/résumé.pdf"}
+        title="Sergy's resume"
+        src={"/assets/resume.pdf"}
         loading="lazy"
         className="w-full h-full"
       />
