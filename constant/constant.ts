@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    date: " August 2024 - Present",
+    date: " Apr 2023 - Oct 2024",
     title: "Fullstack software engineer.",
     company: {
       name: "RMT IT (web agency)",
@@ -8,10 +8,10 @@ export const experiences = [
     },
     jobDescription:
       "Build and maintain critical components used to construct client's websites. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    tech: ["TypeScript", "NextJS", "ShadCN", "TailwindCSS"],
+    tech: ["NextJS", "TypeScript", "ShadCN", "TailwindCSS"],
   },
   {
-    date: "June 2022 - June 2024",
+    date: "Jan 2021 - Feb 2023",
     title: "Fullstack software engineer.",
     company: {
       name: "Nellium-AI",
@@ -23,7 +23,7 @@ export const experiences = [
     tech: ["React", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
-    date: "March 2019 - April 2022",
+    date: "Aug 2018 - Nov 2020",
     title: "Frontend software engineer.",
     company: {
       name: "Misterharper.com",

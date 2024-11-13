@@ -26,7 +26,7 @@ const About = () => {
           <Link
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/ethan-sergy-396144203/"
+            href="https://www.linkedin.com/in/sergy-e-396144203/"
           >
             <AiFillLinkedin className="text-[2.5rem] 2xl:text-[2.8rem] text-slate-200 hover:text-cyan-300" />
           </Link>

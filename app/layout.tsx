@@ -6,11 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Ethan Sergy",
-    template: "Ethan Sergy | %s",
+    default: "Sergy",
+    template: "Sergy | %s",
   },
   description:
-    "Ethan Sergy's Portfolio | Experienced Software developer (React, NextJs, NodeJS)",
+    "Sergy's Portfolio | Experienced Senior Software developer (NextJS, ReactJS, NodeJS)",
   icons: {
     icon: "/assets/icon.png",
   },
