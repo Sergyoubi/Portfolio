@@ -21,14 +21,14 @@ const About = () => {
             rel="noreferrer"
             href="https://github.com/Sergyoubi"
           >
-            <AiFillGithub className="text-[2.5rem] 2xl:text-[2.8rem] text-slate-200 hover:text-cyan-300" />
+            <AiFillGithub className="text-[2rem] 2xl:text-[2.8rem] text-slate-200 hover:text-cyan-300" />
           </Link>
           <Link
             target="_blank"
             rel="noreferrer"
             href="https://www.linkedin.com/in/sergy-e-396144203/"
           >
-            <AiFillLinkedin className="text-[2.5rem] 2xl:text-[2.8rem] text-slate-200 hover:text-cyan-300" />
+            <AiFillLinkedin className="text-[2rem] 2xl:text-[2.8rem] text-slate-200 hover:text-cyan-300" />
           </Link>
         </div>
       </div>
