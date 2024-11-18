@@ -9,8 +9,9 @@ const About = () => {
           Sergy {""}
           <span className="text-xl font-thin">(Senior Dev)</span>
         </p>
+
         <p className="text-slate-200 font-bold text-6xl tracking-wide select-none">
-          I am into <br /> building SaaS.
+          I am into <br /> building SaaS
         </p>
         <p className="text-slate-400 font-normal text-lg tracking-wide select-none">
           I thrive at the intersection of design and engineering.
