@@ -1,45 +1,33 @@
-"use client";
-import TitleItem from "./TitleItem";
-import DescriptionItem from "./DescriptionItem";
-import TechListItem from "./TechListItem";
-import { motion } from "framer-motion";
-import { useState } from "react";
+import Link from "next/link";
 
 const JobDescription = ({
   date,
   title,
   company,
   jobDescription,
-  tech,
+  img,
 }: ExperienceProps) => {
-  const [scale, setScale] = useState(1);
-  const handleMouseEnter = () => {
-    setScale(1.12);
-  };
-  const handleMouseLeave = () => {
-    setScale(1);
-  };
   return (
-    <motion.section
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      animate={{
-        scale: scale,
-      }}
-      transition={{ stiffness: 20 }}
-      className="w-[80%] h-[60vh] md:h-[20vh] xl:w-[90%] xl:h-[40vh] mid-xl:h-[28vh] 2xl:h-[25vh] 3xl:h-[20vh] flex-center my-3 border border-slate-800 hover:border-zinc-700 rounded-xl gap-5 hover:cursor-pointer"
-    >
-      <div className="w-[25%] h-full flex justify-start items-start">
-        <p className="text-[0.5rem] md:text-xs xl:text-[0.6rem] text-slate-400 mx-2 relative top-[3.5%] md:top-[7%] xl:top-[8%] left-[5%] mid-xl:left-[10%]">
-          {date}
-        </p>
+    <div className="w-full flex flex-col justify-start items-start gap-5 3xl:gap-8">
+      <div className="size-[5rem] text-4xl text-white font-bold rounded-full flex-center bg-[#292929] mb-5">
+        <img src={img} alt="" className="size-[2.6rem]" />
       </div>
-      <div className="w-[75%] h-full flex flex-col justify-center items-center 2xl:items-start">
-        <TitleItem title={title} company={company} date={date} />
-        <DescriptionItem jobDescription={jobDescription} />
-        <TechListItem tech={tech} />
-      </div>
-    </motion.section>
+      <Link
+        target="_blank"
+        rel="noreferrer"
+        href={`https://${company.link}`}
+        className="text-2xl text-slate-50 font-normal"
+      >
+        {company.name}
+      </Link>
+      <p className="2xl:w-[80%] 3xl:w-[60%] text-[4rem] text-white font-medium leading-[3.8rem]">
+        {title}
+      </p>
+      <p className="text-sm text-white font-light">{date}</p>
+      <p className="w-full xl:w-[70%] 2xl:w-[50%] 3xl:w-[35%] text-sm text-neutral-400 font-light">
+        {jobDescription}
+      </p>
+    </div>
   );
 };
 

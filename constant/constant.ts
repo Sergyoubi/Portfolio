@@ -1,17 +1,17 @@
 export const experiences = [
   {
-    date: " Apr 2023 - Oct 2024",
+    date: " Apr 2023 - Oct 2024 (Remote)",
     title: "Fullstack software engineer.",
     company: {
-      name: "RMT IT (web agency)",
+      name: "RMT IT (Web agency)",
       link: "https://www.linkedin.com/company/rmt-it-solutions",
     },
     jobDescription:
       "Build and maintain critical components used to construct client's websites. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-    tech: ["NextJS", "TypeScript", "ShadCN", "TailwindCSS"],
+    img: "/assets/web.svg",
   },
   {
-    date: "Jan 2021 - Feb 2023",
+    date: "Jan 2021 - Feb 2023 (Remote)",
     title: "Fullstack software engineer.",
     company: {
       name: "Nellium-AI",
@@ -20,18 +20,18 @@ export const experiences = [
 
     jobDescription:
       "Build and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
-    tech: ["React", "NodeJS", "TailwindCSS", "MongoDB"],
+    img: "/assets/ai.svg",
   },
   {
-    date: "Aug 2018 - Nov 2020",
+    date: "Aug 2018 - Nov 2020 (Remote)",
     title: "Frontend software engineer.",
     company: {
-      name: "Misterharper.com",
+      name: "Misterharper.com (closed)",
       link: "www.misterharper.com",
     },
     jobDescription:
       "Architected and implemented the user interface using technologies such as React, JavaScript, TailwindCSS and Material UI. Worked alongside project managers, designers, and Backend engineers to transform creative concepts into refined digital experiences.",
-    tech: ["React", "JavaScript", "TailwindCSS", "MaterialUI."],
+    img: "/assets/cart.svg",
   },
 ];
 
@@ -80,4 +80,25 @@ export const projects = [
       "Redux Toolkit",
     ],
   },
+];
+
+export const firstRow = [
+  { img: "/assets/html.svg" },
+  { img: "/assets/css3.svg" },
+  { img: "/assets/typescript.svg" },
+  { img: "/assets/javascript.svg" },
+  { img: "/assets/react.svg" },
+  { img: "/assets/nextjs.svg" },
+  { img: "/assets/redux.svg" },
+  { img: "/assets/nodejs.svg" },
+];
+export const secondRow = [
+  { img: "/assets/vercel.svg" },
+  { img: "/assets/mongodb.svg" },
+  { img: "/assets/postgresql.svg" },
+  { img: "/assets/git.svg" },
+  { img: "/assets/jira.svg" },
+  { img: "/assets/github.svg" },
+  { img: "/assets/gitlab.svg" },
+  { img: "/assets/vscode.svg" },
 ];

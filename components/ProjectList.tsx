@@ -28,18 +28,16 @@ const ProjectList = ({ url, title, description, tech }: ProjectProps) => {
       </div>
       <div className="w-[75%] flex flex-col justify-center items-start gap-4 my-2">
         <div className="w-full h-[10%] flex justify-start items-center gap-3">
-          <p className="text-[#DFF6FF] text-base font-semibold group-hover:text-cyan-200">
-            {title}
-          </p>
+          <p className="text-white text-base font-semibold">{title}</p>
         </div>
-        <article className="w-[90%] text-slate-400 text-sm font-thin">
+        <article className="w-[90%] text-white text-sm font-thin">
           {description}
         </article>
         <div className="w-full flex justify-start items-center mb-3 gap-3 flex-wrap">
           {tech.map((item, index) => (
             <p
               key={index}
-              className="px-3 py-2 text-xs bg-teal-50 bg-opacity-10 text-teal-300 rounded-full"
+              className="px-3 py-2 text-xs bg-teal-50 bg-opacity-10 text-white rounded-full"
             >
               {item}
             </p>

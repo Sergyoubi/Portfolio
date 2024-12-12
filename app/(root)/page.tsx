@@ -7,7 +7,7 @@ import TechStack from "@/components/TechStack";
 
 const Home = () => {
   return (
-    <main className="w-screen h-screen bg-slate-900">
+    <main className="w-screen h-screen bg-black">
       <About />
       <Intro />
       <Experience />

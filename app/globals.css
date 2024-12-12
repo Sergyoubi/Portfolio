@@ -13,7 +13,7 @@
 }
 
 .glassmorphisme-class {
-  @apply bg-white bg-opacity-5 hover:bg-opacity-[.03] backdrop-filter backdrop-blur-lg border border-transparent hover:border-gray-800 rounded-xl gap-5 transition ease-in-out duration-500;
+  @apply bg-white bg-opacity-5 hover:bg-opacity-[.03] backdrop-filter backdrop-blur-lg border border-transparent hover:border-gray-900 rounded-xl gap-5 transition ease-in-out duration-500;
 }
 
 .purple-gradient {
@@ -33,10 +33,6 @@
       }
     }
   }
-}
-
-.primary-btn {
-  @apply text-slate-800 text-xs font-medium py-4 px-6 border border-transparent rounded-full cursor-pointer;
 }
 
 @layer base {
