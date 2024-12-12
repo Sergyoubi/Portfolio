@@ -4,7 +4,7 @@ export const experiences = [
     title: "Fullstack software engineer.",
     company: {
       name: "RMT IT (Web agency)",
-      link: "https://www.linkedin.com/company/rmt-it-solutions",
+      link: "https://mg.linkedin.com/company/rmt-it-solutions",
     },
     jobDescription:
       "Build and maintain critical components used to construct client's websites. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
@@ -15,7 +15,7 @@ export const experiences = [
     title: "Fullstack software engineer.",
     company: {
       name: "Nellium-AI",
-      link: "www.nellium-ai.com",
+      link: "https://www.nellium-ai.com",
     },
 
     jobDescription:
@@ -27,7 +27,7 @@ export const experiences = [
     title: "Frontend software engineer.",
     company: {
       name: "Misterharper.com (closed)",
-      link: "www.misterharper.com",
+      link: "https://www.misterharper.com",
     },
     jobDescription:
       "Architected and implemented the user interface using technologies such as React, JavaScript, TailwindCSS and Material UI. Worked alongside project managers, designers, and Backend engineers to transform creative concepts into refined digital experiences.",

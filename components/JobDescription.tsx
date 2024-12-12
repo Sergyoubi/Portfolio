@@ -15,7 +15,7 @@ const JobDescription = ({
       <Link
         target="_blank"
         rel="noreferrer"
-        href={`https://${company.link}`}
+        href={company.link}
         className="text-2xl text-slate-50 font-normal"
       >
         {company.name}
