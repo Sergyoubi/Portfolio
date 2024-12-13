@@ -62,27 +62,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-/* 
-        <div className="w-[80%] h-[65%] md:w-[80%] md:h-[50%] purple-gradient rounded-2xl flex-center flex-col gap-6 relative lg:top-[15%]">
-          <p className="w-[95%] lg:w-[80%] text-center text-white text-2xl lg:text-3xl font-bold">
-            Let's collaborate
-          </p>
-          <button
-            onClick={handleCopyEmail}
-            className="py-2 px-4 text-sm rounded-lg border-2 border-slate-200 bg-gray-800 hover:bg-slate-700 text-white"
-          >
-            {isCopied ? (
-              <span className="flex-center gap-3">
-                <AiOutlineCheck size={18} className="text-green-400" />
-                Email address copied
-              </span>
-            ) : (
-              <span className="flex-center gap-3">
-                <FaRegCopy size={15} className="text-white" />
-                Copy my email address
-              </span>
-            )}
-          </button>
-        </div>
-        */

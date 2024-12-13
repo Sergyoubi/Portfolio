@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: "Sergy | %s",
   },
   description:
-    "Sergy's Portfolio | Experienced Senior Software developer (NextJS, ReactJS, NodeJS)",
+    "Sergy's Portfolio | Experienced Software developer (NextJS, ReactJS, NodeJS)",
   icons: {
     icon: "/assets/icon.png",
   },
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-black`}>{children}</body>
     </html>
   );
 }
