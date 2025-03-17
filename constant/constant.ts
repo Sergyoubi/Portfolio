@@ -14,7 +14,7 @@ export const experiences = [
     date: "Jan 2021 - Feb 2023 (Remote)",
     title: "Fullstack software engineer.",
     company: {
-      name: "Nellium-AI",
+      name: "Nellium-AI (closed)",
       link: "https://www.nellium-ai.com",
     },
 
