@@ -29,7 +29,7 @@ const About = () => {
           <Link
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/sergy-e-396144203/"
+            href="https://www.linkedin.com/in/sergy-r-396144203/"
           >
             <AiFillLinkedin className="text-[2.3rem] 2xl:text-[2.8rem] text-white hover:text-[#c3ebf1]" />
           </Link>

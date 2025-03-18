@@ -17,7 +17,6 @@ export const experiences = [
       name: "Nellium-AI (closed)",
       link: "https://www.nellium-ai.com",
     },
-
     jobDescription:
       "Build and delivered technical solutions according to business requirements. Lead the development and architecture of technical tools like REST APIs, and Continuous Integration pipelines to fulfill business requirements.",
     img: "/assets/ai.svg",
