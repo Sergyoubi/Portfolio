@@ -1,5 +1,16 @@
 export const experiences = [
   {
+    date: " Nov 2024 - Present (Remote)",
+    title: "Fullstack Web Developer.",
+    company: {
+      name: "Freelancing",
+      link: "",
+    },
+    jobDescription:
+      "Maintain client's websites, work closely with other developers and resolve bugs.",
+    img: "/assets/web.svg",
+  },
+  {
     date: " Apr 2023 - Oct 2024 (Remote)",
     title: "Fullstack software engineer.",
     company: {

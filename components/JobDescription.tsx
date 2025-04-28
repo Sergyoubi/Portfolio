@@ -13,7 +13,7 @@ const JobDescription = ({
         <img src={img} alt="" className="size-[2.6rem]" />
       </div>
       <Link
-        target="_blank"
+        target={company.link === "" ? "" : "_blank"}
         rel="noreferrer"
         href={company.link}
         className="text-2xl text-slate-50 font-normal"
